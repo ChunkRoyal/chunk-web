@@ -51,12 +51,20 @@
     transform: scale(1.1); /* Resmi hover durumunda %10 büyüt */
 }
 
+.online-count p {
+    margin: auto;
+    font-size: 20px;
+    background: -webkit-linear-gradient( #ffdc13, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .online-count {
     position: absolute;
     bottom: 20px;
     left: 20px;
     background-color: rgba(0, 0, 0, 0.7);
-    color: #fff;
+    color: #ffffff;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 1rem;
